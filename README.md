@@ -27,11 +27,14 @@ Motor speed is controlled using PWM via enable pins.
 Pin numbers can be changed based on your wiring.
 
 ## ▶️ How It Works
-1. Clone the repository
-2. Open the `.ino` file in Arduino IDE
-3. Connect the motors and L298 module correctly
-4. Upload the code to Arduino
-5. The motors will move forward, stop, turn right, and turn left in sequence
+## run this code 
+```bash
+git clone https://github.com/amiraligrr/L298-Motor-Driver-Control/
+```
+1. Open the `.ino` file in Arduino IDE
+2. Connect the motors and L298 module correctly
+3. Upload the code to Arduino
+4. The motors will move forward, stop, turn right, and turn left in sequence
 
 ## 🧠 Functions Included
 - `forward()` → Move forward
